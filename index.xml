@@ -12,21 +12,14 @@
       <link>https://cutechuanchuan.github.io/about/</link>
       <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://cutechuanchuan.github.io/about/</guid>
-      <description>Hi, I am Yu-Chuan Hung and you can call me Raymond if you like.&#xA;Currently, I am a data engineer and continuously learn many aspects of data engineering, including, data orchestration tools, streaming processing platforms (e.g., Apache Kafka), and NoSQL (e.g,. Apache Cassandra). This blog is a place where I record my learning experiences, and side projects&#xA;Since 2019, I jumped into academia and worked as full-time research assistant. Considering the main duty of this job is to clean and analyze data from many sources as well as process stuff related to participants, which is time-consuming and error-prone, I proactively started to learn Python, R, and SQL to reduce working time and improve working performance.</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://cutechuanchuan.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cutechuanchuan.github.io/contact/</guid>
-      <description>Follow me, @johndoe.</description>
+      <description>Hi, I am Yu-Chuan Hung, but you can call me Raymond if you prefer.&#xA;Currently, I work as a data engineer and am continuously learning many aspects of data engineering. This includes data orchestration tools, streaming processing platforms (e.g., Apache Kafka), and NoSQL databases (e.g., Apache Cassandra). This blog is a place where I record my learning experiences and side projects.&#xA;Since 2019, I have been immersed in academia, working as a full-time research assistant.</description>
     </item>
     <item>
       <title>Projects</title>
       <link>https://cutechuanchuan.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://cutechuanchuan.github.io/projects/</guid>
-      <description>Nothing to see here&amp;hellip; Move along!</description>
+      <description> Comment Detector Link to heading </description>
     </item>
   </channel>
 </rss>
