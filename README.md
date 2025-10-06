@@ -1,3 +1,5 @@
+<!--
+
 ### Hey 👋, I'm Raymond.
 
 <h3 align="center">A passionate data engineer</h3>
@@ -113,4 +115,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 - Check my 🖋 [Chinese blog](http://blog.wu-boy.com/) or 🌱 [Udemy Online Course](https://www.udemy.com/user/bo-yi-wu-2/)
 - 🔭 I’m currently working on Mediatek as Software Enginner
+-->
 -->
