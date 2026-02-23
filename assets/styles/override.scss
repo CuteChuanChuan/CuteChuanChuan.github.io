@@ -190,12 +190,12 @@ html[data-theme='dark'] {
   }
 }
 
-// Center post cards in grid
+// Center post cards in grid — proximity: consistent spacing
 .post-card-holder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.25rem;
 }
 
 // =============================================
@@ -222,6 +222,90 @@ html[data-theme='dark'] {
   background-color: #f0f4f8 !important;
   background-size: contain !important;
   background-position: center !important;
+}
+
+// =============================================
+// Post content — Gestalt proximity & figure-ground
+// =============================================
+
+// Proximity: more space between sections, tighter within
+.post-content {
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+
+    &:first-child {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+
+  // Tighter spacing within a section
+  h2 + p,
+  h2 + table,
+  h2 + .highlight {
+    margin-top: 0.5rem;
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  // Figure-ground: PR blockquote callout
+  blockquote {
+    border-left: 3px solid #0077B6;
+    background: rgba(0, 119, 182, 0.04);
+    padding: 0.6rem 1rem;
+    margin: 1rem 0 1.5rem;
+    border-radius: 0 6px 6px 0;
+  }
+
+  // Figure-ground: code blocks with breathing room
+  pre {
+    margin: 1.25rem 0;
+    border-radius: 8px;
+  }
+
+  // Figure-ground: table readability
+  table {
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem 0;
+
+    thead th {
+      background: rgba(0, 119, 182, 0.06);
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background: rgba(0, 0, 0, 0.02);
+    }
+  }
+}
+
+html[data-theme='dark'] .post-content {
+  h2 {
+    border-top-color: rgba(255, 255, 255, 0.06);
+  }
+
+  blockquote {
+    border-left-color: #00B4D8;
+    background: rgba(0, 180, 216, 0.06);
+  }
+
+  table {
+    thead th {
+      background: rgba(0, 180, 216, 0.08);
+    }
+
+    tbody tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+  }
 }
 
 // =============================================
