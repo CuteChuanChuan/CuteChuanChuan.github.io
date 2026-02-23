@@ -224,6 +224,16 @@ html[data-theme='dark'] {
   background-position: center !important;
 }
 
+// =============================================
+// Code blocks — wrap instead of horizontal scroll
+// =============================================
+.content-section pre,
+article pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
 // Dark mode hero backgrounds
 html[data-theme='dark'] {
   .post-card .card .card-head {
