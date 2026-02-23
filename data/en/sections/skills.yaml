@@ -30,10 +30,28 @@ skills:
   url: "https://datafusion.apache.org/"
   categories: ["data"]
 
+- name: Apache Airflow
+  logo: /images/sections/skills/airflow.svg
+  summary: ""
+  url: "https://airflow.apache.org/"
+  categories: ["data"]
+
+- name: Apache Iceberg
+  logo: /images/sections/skills/iceberg.svg
+  summary: ""
+  url: "https://iceberg.apache.org/"
+  categories: ["data"]
+
 - name: Apache Kafka
   logo: /images/sections/skills/kafka.svg
   summary: ""
   url: "https://kafka.apache.org/"
+  categories: ["data"]
+
+- name: Polars
+  logo: /images/sections/skills/polars.svg
+  summary: ""
+  url: "https://pola.rs/"
   categories: ["data"]
 
 - name: PostgreSQL

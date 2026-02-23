@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="ig" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F4FD"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
+    </linearGradient>
+    <linearGradient id="iw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0277BD"/>
+      <stop offset="100%" stop-color="#0288D1"/>
+    </linearGradient>
+  </defs>
+  <!-- Iceberg above water -->
+  <polygon points="32,6 18,30 46,30" fill="url(#ig)" stroke="#0288D1" stroke-width="1.5"/>
+  <!-- Water line -->
+  <line x1="8" y1="30" x2="56" y2="30" stroke="#0288D1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Iceberg below water -->
+  <polygon points="14,30 32,58 50,30" fill="url(#iw)" opacity="0.7"/>
+</svg>
