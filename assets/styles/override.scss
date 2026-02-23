@@ -262,8 +262,48 @@ article .content > hr:last-of-type,
   flex-wrap: nowrap;
 }
 
-// Dark mode hero backgrounds
+// =============================================
+// Dark mode — comprehensive overrides
+// =============================================
 html[data-theme='dark'] {
+  // CSS variables
+  --primary-color: #00B4D8;
+  --accent-color: #48D1CC;
+
+  // Navigation accent
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #00B4D8 !important;
+  }
+
+  // Button styling
+  .btn-primary {
+    background-color: #00B4D8;
+    border-color: #00B4D8;
+    color: #0f172a;
+
+    &:hover {
+      background-color: #0096b7;
+      border-color: #0096b7;
+      color: #0f172a;
+    }
+  }
+
+  // Link colors
+  a {
+    color: #00B4D8;
+
+    &:hover {
+      color: #48D1CC;
+    }
+  }
+
+  // Card hover effect
+  .card:hover {
+    border-color: #48D1CC;
+  }
+
+  // Hero backgrounds
   .post-card .card .card-head {
     background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
   }
