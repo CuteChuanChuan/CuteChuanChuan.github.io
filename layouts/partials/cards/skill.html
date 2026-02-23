@@ -1,0 +1,20 @@
+<div class="col-xs-6 col-sm-4 col-lg-3 pt-2 filtr-item"
+  data-category='all, {{ with .categories }}{{ delimit . ","}}{{ end }}'
+>
+  <a class="text-decoration-none" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
+    <div class="card skill-badge">
+      <div class="skill-badge-inner">
+        {{ if .logo }}
+          {{ $logoImage := resources.Get .logo }}
+          {{ if ne $logoImage.MediaType.SubType "svg" }}
+            {{ $logoImage = $logoImage.Fit "48x48" }}
+          {{ end }}
+          <img class="skill-icon" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
+        {{ else if .icon }}
+          <span class="{{ .icon }} skill-icon-font"></span>
+        {{ end }}
+        <span class="skill-name">{{ .name }}</span>
+      </div>
+    </div>
+  </a>
+</div>

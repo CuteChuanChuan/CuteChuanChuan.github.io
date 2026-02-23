@@ -1,0 +1,17 @@
+name: "Yu-Chuan Hung"
+nickname: "Raymond"
+greeting: "Hi, I'm"
+image: "images/author/raymond.png"
+
+summary:
+- I build data pipelines with Kafka, Spark, and DataFusion
+- I contribute to Apache open-source projects
+- I deploy and orchestrate with Docker and Kubernetes
+
+contactInfo:
+  email: "yuchuanhung.raymond@gmail.com"
+  github: "https://github.com/CuteChuanChuan"
+  linkedin: "https://www.linkedin.com/in/yuchuanhung/"
+
+badge:
+  enable: false

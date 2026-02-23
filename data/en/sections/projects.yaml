@@ -1,0 +1,53 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/projects.html
+
+buttons:
+- name: All
+  filter: "all"
+- name: Apache
+  filter: "apache"
+- name: DataFusion Ecosystem
+  filter: "datafusion"
+
+projects:
+- name: Apache DataFusion
+  logo: /images/sections/projects/apache-datafusion.svg
+  role: Contributor
+  timeline: "2025 - Present"
+  repo: "https://github.com/apache/datafusion"
+  url: "https://datafusion.apache.org/"
+  summary: "Implemented Spark-compatible functions (json_tuple, size), formatted doc strings across the entire codebase, and added microbenchmarks. 13+ merged PRs."
+  tags: ["apache", "datafusion"]
+
+- name: Apache DataFusion-Comet
+  logo: /images/sections/projects/apache-comet.svg
+  role: Contributor
+  timeline: "2025 - Present"
+  repo: "https://github.com/apache/datafusion-comet"
+  url: "https://datafusion.apache.org/comet/"
+  summary: "Refactored QueryPlanSerde by extracting comparison and datetime expressions into separate modules with reusable traits."
+  tags: ["apache", "datafusion"]
+
+- name: Apache DataFusion-Ballista
+  logo: /images/sections/projects/apache-ballista.svg
+  role: Contributor
+  timeline: "2025"
+  repo: "https://github.com/apache/datafusion-ballista"
+  url: "https://datafusion.apache.org/ballista/"
+  summary: "Made gRPC timeout configurations user-configurable across the distributed query engine with 9 new config options."
+  tags: ["apache", "datafusion"]
+
+- name: Apache Iceberg
+  logo: /images/sections/projects/apache-iceberg.svg
+  role: Contributor
+  timeline: "2025"
+  repo: "https://github.com/apache/iceberg"
+  url: "https://iceberg.apache.org/"
+  summary: "Fixed ErrorProne warnings across multiple modules, enforced test naming conventions, and corrected documentation."
+  tags: ["apache"]
+

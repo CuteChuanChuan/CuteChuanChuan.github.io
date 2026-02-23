@@ -1,0 +1,48 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+
+skills:
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: ""
+  url: "https://www.python.org/"
+
+- name: Rust
+  logo: /images/sections/skills/rust.svg
+  summary: ""
+  url: "https://www.rust-lang.org/"
+
+- name: Scala
+  logo: /images/sections/skills/scala.svg
+  summary: ""
+  url: "https://www.scala-lang.org/"
+
+- name: Docker & Kubernetes
+  logo: /images/sections/skills/docker.svg
+  summary: ""
+  url: "https://www.docker.com/"
+
+- name: Apache Kafka
+  logo: /images/sections/skills/kafka.svg
+  summary: ""
+  url: "https://kafka.apache.org/"
+
+- name: Apache Spark
+  logo: /images/sections/skills/spark.svg
+  summary: ""
+  url: "https://spark.apache.org/"
+
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: ""
+  url: "https://www.postgresql.org/"
+
+- name: Cloud (AWS & GCP)
+  logo: /images/sections/skills/aws.svg
+  summary: ""
+  url: "https://aws.amazon.com/"
