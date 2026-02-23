@@ -58,9 +58,9 @@ This required propagating the config through all call sites — the executor con
 Rather than introducing a standalone configuration mechanism, the settings were integrated into DataFusion's existing `ConfigExtension` trait. Users configure timeouts the same way they set any other Ballista option:
 
 ```
-ballista.grpc_client_connect_timeout = 10s
-ballista.grpc_client_timeout         = 300s
-ballista.grpc_server_tcp_nodelay     = true
+ballista.grpc_client_connect_timeout=10s
+ballista.grpc_client_timeout=300s
+ballista.grpc_server_tcp_nodelay=true
 ```
 
 ## Testing
