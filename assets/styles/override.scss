@@ -243,6 +243,14 @@ article .content > hr:last-of-type,
 }
 
 // =============================================
+// Contributions page — uniform table width
+// =============================================
+.post-content table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+// =============================================
 // Contributions page — badges on same line
 // =============================================
 .post-content p > img[alt="GitHub stars"],
