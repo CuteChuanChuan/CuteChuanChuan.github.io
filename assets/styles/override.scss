@@ -234,6 +234,23 @@ article pre {
   overflow-x: hidden;
 }
 
+// =============================================
+// Post content — remove duplicate bottom separator
+// =============================================
+article .content > hr:last-of-type,
+.post-content > hr:last-of-type {
+  display: none;
+}
+
+// =============================================
+// Contributions page — badges on same line
+// =============================================
+article p > img[src*="shields.io"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
 // Dark mode hero backgrounds
 html[data-theme='dark'] {
   .post-card .card .card-head {
