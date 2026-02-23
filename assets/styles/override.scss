@@ -245,14 +245,21 @@ article .content > hr:last-of-type,
 // =============================================
 // Contributions page — badges on same line
 // =============================================
-article p > img[alt="GitHub stars"],
-article p > img[alt="My PRs"] {
+.post-content p > img[alt="GitHub stars"],
+.post-content p > img[alt="My PRs"] {
   display: inline !important;
   width: auto !important;
   max-width: none !important;
-  height: auto !important;
-  margin: 0 0.3rem 0 0 !important;
+  height: 22px !important;
+  margin: 0 0.5rem 0 0 !important;
   vertical-align: middle;
+}
+
+.post-content p:has(> img[alt="GitHub stars"]) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
 }
 
 // Dark mode hero backgrounds
