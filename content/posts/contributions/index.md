@@ -71,4 +71,4 @@ Merged pull requests across Apache open-source projects: DataFusion, DataFusion-
 
 &nbsp;
 
-[View all contributions on GitHub](https://github.com/pulls?q=is%3Apr+author%3ACuteChuanChuan+is%3Amerged)
+[View all contributions on GitHub](https://github.com/pulls?q=is%3Apr+author%3ACuteChuanChuan+is%3Amerged+-user%3ACuteChuanChuan)
