@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="cloud-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="50%" stop-color="#34A853"/>
+      <stop offset="100%" stop-color="#FF9900"/>
+    </linearGradient>
+  </defs>
+  <!-- Cloud shape -->
+  <path d="M100 58c0-1.1-.05-2.2-.16-3.28A24 24 0 0 0 76 32a23.8 23.8 0 0 0-15.6 5.8A20 20 0 0 0 28 52a20.1 20.1 0 0 0 .34 3.6A16 16 0 0 0 16 70a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16 15.9 15.9 0 0 0-12-15.48z" fill="url(#cloud-grad)"/>
+  <!-- Up arrow (deployment/upload metaphor) -->
+  <path d="M56 72v-12h-8l16-16 16 16h-8v12z" fill="#fff" opacity="0.9"/>
+</svg>

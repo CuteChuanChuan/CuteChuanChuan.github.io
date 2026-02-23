@@ -197,3 +197,40 @@ html[data-theme='dark'] {
   justify-content: center;
   gap: 0.5rem;
 }
+
+// =============================================
+// Hero images — handle official SVG logos
+// =============================================
+
+// Post card hero: center logos with background instead of stretching
+.post-card .card .card-head {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card-img-top {
+    object-fit: contain;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+// Single post hero area: center logo with background
+.hero-area {
+  background-color: #f0f4f8 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+// Dark mode hero backgrounds
+html[data-theme='dark'] {
+  .post-card .card .card-head {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  }
+
+  .hero-area {
+    background-color: #1a202c !important;
+  }
+}

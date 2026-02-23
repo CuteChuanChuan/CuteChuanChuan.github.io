@@ -5,11 +5,15 @@ resources/
 node_modules/
 package-lock.json
 
+# ----- Claude -----
+.claude/
+
 # ----- my setting -----
 *.DS_Store
 *.env
 *.idea
 *.sh
+!scripts/*.sh
 *.log
 .idea/
 trying/

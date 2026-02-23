@@ -5,44 +5,69 @@ section:
   weight: 2
   showOnNavbar: true
   template: sections/skills.html
+  filter: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Data & Query Engines
+  filter: "data"
+- name: Languages
+  filter: "lang"
+- name: Infrastructure
+  filter: "infra"
 
 skills:
-- name: Python
-  logo: /images/sections/skills/python.svg
+- name: Apache Spark
+  logo: /images/sections/skills/spark.svg
   summary: ""
-  url: "https://www.python.org/"
+  url: "https://spark.apache.org/"
+  categories: ["data"]
 
-- name: Rust
-  logo: /images/sections/skills/rust.svg
+- name: Apache DataFusion
+  logo: /images/sections/projects/apache-datafusion.svg
   summary: ""
-  url: "https://www.rust-lang.org/"
-
-- name: Scala
-  logo: /images/sections/skills/scala.svg
-  summary: ""
-  url: "https://www.scala-lang.org/"
-
-- name: Docker & Kubernetes
-  logo: /images/sections/skills/docker.svg
-  summary: ""
-  url: "https://www.docker.com/"
+  url: "https://datafusion.apache.org/"
+  categories: ["data"]
 
 - name: Apache Kafka
   logo: /images/sections/skills/kafka.svg
   summary: ""
   url: "https://kafka.apache.org/"
-
-- name: Apache Spark
-  logo: /images/sections/skills/spark.svg
-  summary: ""
-  url: "https://spark.apache.org/"
+  categories: ["data"]
 
 - name: PostgreSQL
   logo: /images/sections/skills/postgresql.svg
   summary: ""
   url: "https://www.postgresql.org/"
+  categories: ["data"]
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: ""
+  url: "https://www.python.org/"
+  categories: ["lang"]
+
+- name: Rust
+  logo: /images/sections/skills/rust.svg
+  summary: ""
+  url: "https://www.rust-lang.org/"
+  categories: ["lang"]
+
+- name: Scala
+  logo: /images/sections/skills/scala.svg
+  summary: ""
+  url: "https://www.scala-lang.org/"
+  categories: ["lang"]
+
+- name: Docker & Kubernetes
+  logo: /images/sections/skills/docker.svg
+  summary: ""
+  url: "https://www.docker.com/"
+  categories: ["infra"]
 
 - name: Cloud (AWS & GCP)
-  logo: /images/sections/skills/aws.svg
+  logo: /images/sections/skills/cloud.svg
   summary: ""
-  url: "https://aws.amazon.com/"
+  url: "https://cloud.google.com/"
+  categories: ["infra"]

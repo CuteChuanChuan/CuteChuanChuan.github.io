@@ -28,7 +28,7 @@ defaultContentLanguage: en
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true  # Required by Toha theme for HTML-in-Markdown features
   tableOfContents:
     startLevel: 2
     endLevel: 6

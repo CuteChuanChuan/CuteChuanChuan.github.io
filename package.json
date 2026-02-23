@@ -59,6 +59,9 @@
     "postcss-cli": "^11.0.0",
     "typeit": "^8.8.7"
   },
+  "overrides": {
+    "minimatch": ">=10.2.1"
+  },
   "name": "CuteChuanChuan",
   "version": "0.1.0"
 }

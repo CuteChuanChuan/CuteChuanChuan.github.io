@@ -9,11 +9,11 @@ section:
 designation: "Data Engineer | Apache Open Source Contributor"
 
 summary: |
-  A passionate data engineer focused on building reliable data pipelines and
-  contributing to open-source projects. Experienced with streaming and batch
-  processing using Kafka, Spark, and DataFusion. Containerizing and orchestrating
-  pipelines with Docker and Kubernetes. Actively contributing to Apache projects
-  including DataFusion, Iceberg, DataFusion-Comet, and DataFusion-Ballista.
+  Data engineer building reliable data pipelines at scale.
+  Experienced with Spark and DataFusion for batch and query processing,
+  Kafka for real-time streaming, and Docker/Kubernetes for orchestration.
+  Actively contributing to the Apache ecosystem — DataFusion, Comet,
+  Ballista, Iceberg, and Ozone.
 
 socialLinks:
 - name: Email
@@ -29,8 +29,5 @@ socialLinks:
   url: "https://www.linkedin.com/in/yuchuanhung/"
 
 resourceLinks:
-- title: "My Blog"
-  url: "https://cutechuanchuan.github.io/raymond-blog/"
-
 - title: "Open Source Contributions"
   url: "/posts/contributions/"

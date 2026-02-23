@@ -21,7 +21,7 @@ projects:
   timeline: "2025 - Present"
   repo: "https://github.com/apache/datafusion"
   url: "https://datafusion.apache.org/"
-  summary: "Implemented Spark-compatible functions (json_tuple, size), formatted doc strings across the entire codebase, and added microbenchmarks. 13+ merged PRs."
+  summary: "Implemented Spark-compatible functions (json_tuple, size), formatted doc strings across the entire codebase, and added microbenchmarks."
   tags: ["apache", "datafusion"]
 
 - name: Apache DataFusion-Comet
