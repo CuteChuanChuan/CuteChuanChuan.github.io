@@ -248,6 +248,21 @@ article .content > hr:last-of-type,
 .post-content table {
   width: 100%;
   table-layout: fixed;
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 8%;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 8%;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 12%;
+  }
 }
 
 // =============================================
