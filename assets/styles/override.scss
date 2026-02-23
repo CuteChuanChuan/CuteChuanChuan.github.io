@@ -245,10 +245,14 @@ article .content > hr:last-of-type,
 // =============================================
 // Contributions page — badges on same line
 // =============================================
-article p > img[src*="shields.io"] {
-  display: inline-block;
+article p > img[alt="GitHub stars"],
+article p > img[alt="My PRs"] {
+  display: inline !important;
+  width: auto !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 0.3rem 0 0 !important;
   vertical-align: middle;
-  margin-right: 0.4rem;
 }
 
 // Dark mode hero backgrounds
