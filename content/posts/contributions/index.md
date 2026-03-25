@@ -12,10 +12,11 @@ Merged pull requests across Apache open-source projects: DataFusion, DataFusion-
 
 ## Apache DataFusion
 
-![GitHub stars](https://img.shields.io/github/stars/apache/datafusion?style=flat-square&color=0077B6) ![My PRs](https://img.shields.io/badge/my_PRs-14-00B4D8?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/apache/datafusion?style=flat-square&color=0077B6) ![My PRs](https://img.shields.io/badge/my_PRs-15-00B4D8?style=flat-square)
 
 | PR | Title | Type | Date |
 |----|-------|------|------|
+| [#20498](https://github.com/apache/datafusion/pull/20498) | perf: optimize scatter with type-specific specialization | chore | 2026-03-24 |
 | [#20412](https://github.com/apache/datafusion/pull/20412) | feat: support Spark-compatible `json_tuple` function | feat | 2026-02-20 |
 | [#20076](https://github.com/apache/datafusion/pull/20076) | chore: Add microbenchmark (compared to ExprOrExpr) | chore | 2026-01-30 |
 | [#19592](https://github.com/apache/datafusion/pull/19592) | feat: implement Spark size function for arrays and maps | feat | 2026-01-13 |
